@@ -136,6 +136,12 @@ input[type="search"] {
 
 .user-controls>img:nth-child(1) {
     width: 30px;
+    border-radius: 99px;
+}
+
+.user-controls>img:nth-child(1):hover {
+    cursor: pointer;
+    background-color: #cacaca;
 }
 
 .user-controls>img:nth-child(2) {
